@@ -172,10 +172,10 @@ if(isset($_POST['submit'])){
         
         
      $host="localhost";
-     $user="id3242175_guha_5599";
-     $pass="guha0804";
+     $user="";
+     $pass="";
      
-     $con=mysqli_connect($host,$user,$pass, "id3242175_guha");
+     $con=mysqli_connect($host,$user,$pass, "");
 		
         $query="update java
 		set A1=$x[0],A2=$x[1], A3=$x[2], A4=$x[3], A5=$x[4]";
